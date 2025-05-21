@@ -13,3 +13,18 @@ console.log(typeof(name));
 name = 30;
 console.log(typeof(name));
 console.log(typeof(lastName));
+
+let person = {
+    name: 'Mateo',
+    age: 30     
+};
+
+console.log(person);
+
+//Dot notation
+person.name = 'Manaia';
+console.log(person.name);
+
+//Bracket notation
+person['name'] = 'Mary';
+console.log(person.name);
