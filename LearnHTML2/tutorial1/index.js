@@ -27,4 +27,4 @@ console.log(person.name);
 
 //Bracket notation
 person['name'] = 'Mary';
-console.log(person.name);
+console.log(person.name); 
