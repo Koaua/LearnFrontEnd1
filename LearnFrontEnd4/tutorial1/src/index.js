@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Car from './Car.js';
 
-
+/*
 const myFirstElement = (
   <>
     <table className="myTable">
@@ -29,17 +30,20 @@ const myFirstElement = (
   </>
 )
 
-/* class Car extends React.Component {
+
+ class Car extends React.Component {
   render() {
     return <h2>Hi, I am a Car!</h2>;
   }
-}*/
+}
+
 
 function Car(props) {
   return <h2>I am a {props.color} Car!</h2>
 }
+  */
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Car color="red"/>);
+root.render(<Car />);
 
 
