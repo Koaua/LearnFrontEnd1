@@ -6,6 +6,7 @@ function App() {
     //console.log('Field clicked!', e.clientX, e.clientY);
   
     const [players, setPlayers] = useState([]);
+    const [mode, setMode] = useState('O');
 
     const handleFieldClick = (e) => {
       const rect = e.target.getBoundingClientRect();
