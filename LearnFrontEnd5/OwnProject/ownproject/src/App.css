@@ -9,9 +9,9 @@ body {
   background: repeating-linear-gradient(
     to bottom,
     #228B22,
-    #228B22 35px,
-    #ffffff 10px,
-    #1e7a1e 40px
+    #228B22 95px,
+    #ffffff 5px,
+    #043c04 100px
   );
   position: relative;
   cursor: crosshair;
@@ -21,7 +21,7 @@ body {
 .player {
   position: absolute;
   transform: translate(-50%, -50%);
-  font-size: 20px;
+  font-size: 54px;
   font-weight: bold;
   color: white;
 }
