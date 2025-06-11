@@ -9,11 +9,19 @@ body {
   background: repeating-linear-gradient(
     to bottom,
     #228B22,
-    #228B22 40px,
-    #1e1a1e 40px,
-    #1e7a1e 80px
+    #228B22 35px,
+    #ffffff 10px,
+    #1e7a1e 40px
   );
   position: relative;
   cursor: crosshair;
   border: 5px solid white;
+}
+
+.player {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
 }

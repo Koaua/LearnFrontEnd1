@@ -1,6 +1,6 @@
 function Field({ onClick, children}) {
     return (
-        <div className="field" onClick={{onClick}}>
+        <div className="field" onClick={onClick}>
             {children}      
         </div>
     );
